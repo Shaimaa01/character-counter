@@ -20,11 +20,13 @@ function App() {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
       document.documentElement.style.setProperty("--scrollbar-thumb-color", "#404254");
+      document.documentElement.style.setProperty("----placeholder-color", "#E4E4EF");
       setLogo(logoDark);
       setThemeIcon(iconSun);
     } else {
       document.documentElement.classList.remove("dark");
       document.documentElement.style.setProperty("--scrollbar-thumb-color", "#FFFFFF");
+      document.documentElement.style.setProperty("----placeholder-color", "#2A2B37");
       setLogo(logoLight);
       setThemeIcon(iconMoon);
     }
