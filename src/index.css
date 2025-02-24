@@ -51,7 +51,7 @@ textarea::-webkit-scrollbar-track {
 }
 
 textarea::-webkit-scrollbar-thumb {
-    background: #404254;
+    background: var(--scrollbar-thumb-color);
     border-radius: 10px;
     margin: 10px;
 }
